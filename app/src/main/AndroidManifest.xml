@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Pemrogmobile2021">
         <activity
+            android:name=".TaniActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SampleListView"
+            android:exported="true" />
+        <activity
+            android:name=".SampleList"
+            android:exported="true"/>
+        <activity
             android:name=".TableActivity"
             android:exported="true" />
         <activity
@@ -26,13 +41,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="Main Activity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:label="Main Activity" />
     </application>
 
 </manifest>

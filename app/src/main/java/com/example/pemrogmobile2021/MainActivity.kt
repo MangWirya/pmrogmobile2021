@@ -23,7 +23,6 @@ class MainActivity : AppCompatActivity() {
 
         tvMain = findViewById(R.id.tv_main_activity)
         tvMain.text = getString(R.string.text_progmob_main)
-
         btnInputNama = findViewById(R.id.btn_ambil_nama)
         btnHelp = findViewById(R.id.btn_help)
         btnLinear = findViewById(R.id.btn_linear)

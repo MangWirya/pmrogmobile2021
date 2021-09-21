@@ -10,13 +10,27 @@
         android:id="@+id/btnShowList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="158dp"
-        android:layout_marginTop="341dp"
-        android:layout_marginEnd="144dp"
-        android:layout_marginBottom="342dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="353dp"
+        android:layout_marginEnd="286dp"
+        android:layout_marginBottom="330dp"
         android:text="List view"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSampleRV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="354dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="329dp"
+        android:text="Recycler"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnShowList"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

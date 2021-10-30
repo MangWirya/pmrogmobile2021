@@ -30,11 +30,11 @@ class PetaniAdapter (val petani: List<Petani>): RecyclerView.Adapter<PetaniAdapt
             itemView.apply {
                 txtUser = findViewById(R.id.txtUser)
                 txtNama = findViewById(R.id.txtNama)
-                txtJumlahLahan = findViewById(R.id.txtJumlahlahan)
+                txtJumlahLahan = findViewById(R.id.txtJumlahLahan)
                 txtIdentifikasi = findViewById(R.id.txtIdentifikasi)
                 txtTambahLahan = findViewById(R.id.txtTambahlahan)
                 txtUser.text = petani.user
-                txtNama.text = petani.nama
+                txtNama.text = petani.namanya
                 txtJumlahLahan.text = petani.jumlahLahan
                 txtIdentifikasi.text = petani.identifikasi
                 txtTambahLahan.text = petani.tambahLahan

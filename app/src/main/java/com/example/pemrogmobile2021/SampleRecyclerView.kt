@@ -2,14 +2,10 @@ package com.example.pemrogmobile2021
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.AdapterView
-import android.widget.ListView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.pemrogmobile2021.adapter.PetaniAdapter
 import com.example.pemrogmobile2021.model.Petani
-import com.google.android.material.snackbar.Snackbar
 
 class SampleRecyclerView : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

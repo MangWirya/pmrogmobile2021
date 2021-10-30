@@ -30,9 +30,9 @@ class UsersAdapter (val users: List<ResponseUserItem>?):
         lateinit var txtNoTelp: TextView
         fun bindUsers(users: ResponseUserItem?) {
             itemView.apply {
-                txtNama = findViewById(R.id.nama)
+                txtNama = findViewById(R.id.namanya)
                 txtEmail = findViewById(R.id.email)
-                txtAlamat = findViewById(R.id.alamat)
+                txtAlamat = findViewById(R.id.alamatnya)
                 txtNoTelp = findViewById(R.id.notelp)
                 txtNama.text = users?.name
                 txtEmail.text = users?.email

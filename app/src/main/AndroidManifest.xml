@@ -12,17 +12,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Pemrogmobile2021">
         <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+        <activity
+            android:name=".crud.UpdatePetaniActivity"
+            android:exported="true" />
+        <activity
+            android:name=".crud.AddPetaniActivity"
+            android:exported="true" />
+        <activity
+            android:name=".crud.GetPetaniActivity"
+            android:exported="true"/>
+        <activity
             android:name=".GetAPIActivity"
             android:exported="true" />
         <activity
             android:name=".ServiceActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".SampleCardView"
             android:exported="true" />

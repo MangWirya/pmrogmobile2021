@@ -34,7 +34,7 @@ class PetaniCVAdapter (val petani: List<Petani>): RecyclerView.Adapter<PetaniCVA
                 txtIdentifikasiCV = findViewById(R.id.txtIdentifikasiCV)
                 txtTambahLahanCV = findViewById(R.id.txtTambahLahanCV)
                 txtUserCV.text = petani.user
-                txtNamaCV.text = petani.nama
+                txtNamaCV.text = petani.namanya
                 txtJumlahLahanCV.text = petani.jumlahLahan
                 txtIdentifikasiCV.text = petani.identifikasi
                 txtTambahLahanCV.text = petani.tambahLahan

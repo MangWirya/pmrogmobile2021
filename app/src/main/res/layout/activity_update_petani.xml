@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crud.UpdatePetaniActivity">
+
+    <EditText
+        android:id="@+id/edId"
+        android:layout_width="374dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="21dp"
+        android:clickable="false"
+        android:editable="false"
+        android:enabled="false"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edNama"
+        android:layout_width="374dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="20dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edAlamat"
+        android:layout_width="374dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="21dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edKecamatan" />
+
+    <EditText
+        android:id="@+id/edProvinsi"
+        android:layout_width="374dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="21dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edNama" />
+
+    <EditText
+        android:id="@+id/edKabupaten"
+        android:layout_width="374dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="21dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edFoto" />
+
+    <EditText
+        android:id="@+id/edKecamatan"
+        android:layout_width="374dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="21dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edKabupaten" />
+
+    <EditText
+        android:id="@+id/edKelurahan"
+        android:layout_width="374dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="21dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edNamaistri" />
+
+    <EditText
+        android:id="@+id/edNamaistri"
+        android:layout_width="374dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="21dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edProvinsi" />
+
+    <EditText
+        android:id="@+id/edJumlahlahan"
+        android:layout_width="374dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="21dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edKelurahan" />
+
+    <EditText
+        android:id="@+id/edFoto"
+        android:layout_width="374dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="21dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edJumlahlahan" />
+
+    <Button
+        android:id="@+id/btnUpdatePetani"
+        android:layout_width="377dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="312dp"
+        android:text="Update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edAlamat" />
+</androidx.constraintlayout.widget.ConstraintLayout>

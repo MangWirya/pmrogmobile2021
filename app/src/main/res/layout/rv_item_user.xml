@@ -11,13 +11,13 @@
         android:text="telepon" />
 
     <TextView
-        android:id="@+id/nama"
+        android:id="@+id/namanya"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="nama" />
 
     <TextView
-        android:id="@+id/alamat"
+        android:id="@+id/alamatnya"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="alamat" />
